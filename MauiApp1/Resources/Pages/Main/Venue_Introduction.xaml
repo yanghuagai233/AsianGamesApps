@@ -4,20 +4,568 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="场馆介绍">
-    <FlexLayout>
+    <ScrollView>
+        <FlexLayout
+            AlignItems="Start"
+            Direction="Row"
+            JustifyContent="SpaceAround"
+            Wrap="Wrap">
 
-        <Frame HeightRequest="350" WidthRequest="300">
-            <Frame.GestureRecognizers>
-                <TapGestureRecognizer NumberOfTapsRequired="1" Tapped="TapGestureRecognizer_Tapped" />
-            </Frame.GestureRecognizers>
-            <StackLayout Orientation="Vertical">
-                <Image
-                    HeightRequest="300"
-                    Source="hangzhou_aoti_zhongxin.jpg"
-                    WidthRequest="300" />
-                <Label Text="杭州奥体中心" />
-            </StackLayout>
-        </Frame>
 
-    </FlexLayout>
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hangzhou_aoti_zhongxin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州奥体中心体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hangzhou_aoti_zhongxin_tiyuguan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州奥体中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_ao_tizhong_xin_youyong_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州奥体中心游泳馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_ao_ti_zhong_xin_wang_qiu_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州奥体中心网球中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_ao_ti_zhong_xin_guo_bo_bi_qiu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州奥体中心国博壁球馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="huang_long_ti_yu_zhong_xin_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="黄龙体育中心体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="huang_long_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="黄龙体育中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhe_jiang_sheng_huang_long_ti_yu_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="浙江省黄龙体育中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="gong_shu_yun_he_ti_yu_gong_yuan_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="拱墅运河体育公园体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="da_yun_he_ya_yun_gong_yuan_qu_gun_qiu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="大运河亚运公园曲棍球场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhong_guo_hang_zhou_dian_jing_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="中国杭州电竞中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="qian_tang_lun_hua_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="钱塘轮滑中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="fu_yang_shui_shang_yun_dong_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="富阳水上运动中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="fu_yang_yin_hu_ti_yu_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="富阳银湖体育中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="chun_an_chang_di_zi_xing_che_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="淳安场地自行车馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="tong_lu_ma_shu_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="桐庐马术中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="shang_cheng_ti_yu_zhong_xin_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="上城体育中心体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="lin_ping_ti_yu_zhong_xin_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="临平体育中心体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="lin_ping_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="临平体育中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="xiao_shan_ti_yu_zhong_xin_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="萧山体育中心体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="xiao_shan_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="萧山体育中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="fu_yang_qu_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="富阳区体育中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="lin_an_qu_wen_ti_hui_zhan_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="临安区文体会展中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="xiao_shan_gua_li_wen_hua_ti_yu_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="萧山瓜沥文化体育中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="bin_jiang_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="滨江体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="xiao_shan_lin_pu_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="萧山临浦体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="xi_hu_guo_ji_gao_er_fu_qiu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="西湖国际高尔夫球场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_qi_yuan_qi_lei_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州棋院（智力大厦）棋类馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_dian_zi_ke_ji_da_xue_xia_sha_xiao_qu_ji_jian_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州电子科技大学下沙校区击剑馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州师范大学仓前校区体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="杭州师范大学仓前校区体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhe_jiang_shi_fan_da_xue_xiao_shan_xiao_qu_shou_qiu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="浙江师范大学萧山校区手球馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhe_jiang_gong_shang_da_xue_xia_sha_xiao_qu_shou_qiu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="浙江工商大学下沙校区手球馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhe_jiang_gong_ye_da_xue_ping_feng_xiao_qu_ban_qiu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="浙江工业大学屏峰校区板球场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhe_jiang_da_xue_zi_jin_gang_xiao_qu_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="浙江大学紫金港校区体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="ning_bo_xiang_shan_ya_fan_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="宁波象山亚帆中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="ya_yun_sha_pai_ji_di.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="宁波亚运沙排基地" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="wen_zhou_ao_ti_zhong_xin_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="温州奥体中心体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="wen_zhou_long_zhou_yun_dong_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="温州龙舟运动中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="jin_hua_ti_yu_zhong_xin_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="金华体育中心体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="jin_hua_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="金华体育中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhe_jiang_shi_fan_da_xue_dong_ti_yu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="浙江师范大学东体育场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="shao_xing_ao_ti_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="绍兴奥体中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="shao_xing_bang_qiu_ti_yu_wen_hua_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="绍兴棒（垒）球体育文化中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="zhong_guo_qing_fang_cheng_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="中国轻纺城体育中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="ke_qiao_yang_shan_pan_yan_zhong_xin.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="柯桥羊山攀岩中心" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="jian_hu_zu_qiu_xun_lian_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="鉴湖足球训练场" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="de_qing_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="德清体育中心体育馆" />
+                </Grid>
+            </Frame>
+
+            <Frame HeightRequest="300" WidthRequest="150">
+
+                <Grid>
+                    <Image
+                        HeightRequest="300"
+                        Source="de_qing_di_li_xin_xi_xiao_zhen_lan_qiu_chang.jpg"
+                        WidthRequest="150" />
+                    <Label FontSize="20" Text="德清地理信息小镇篮球场" />
+                </Grid>
+            </Frame>
+
+
+
+
+
+        </FlexLayout>
+    </ScrollView>
 </ContentPage>

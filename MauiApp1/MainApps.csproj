@@ -30,6 +30,10 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-android|AnyCPU'">
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
@@ -48,7 +52,62 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<MauiImage Include="Resources\\Images\\hangzhou_aoti_zhongxin.jpg" BaseSize="376,678" />
+	  <None Remove="Resources\Images\bin_jiang_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\chun_an_chang_di_zi_xing_che_guan.jpg" />
+	  <None Remove="Resources\Images\da_yun_he_ya_yun_gong_yuan_qu_gun_qiu_chang.jpg" />
+	  <None Remove="Resources\Images\de_qing_di_li_xin_xi_xiao_zhen_lan_qiu_chang.jpg" />
+	  <None Remove="Resources\Images\de_qing_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\fu_yang_qu_ti yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\fu_yang_qu_tiyu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\fu_yang_shui_shang_yun_dong_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\fu_yang_yin_hu_ti_yu_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\gong_shu_yun_he_ti_yu_gong_yuan_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\hang _zhou _ti _yu _guan.jpg" />
+	  <None Remove="Resources\Images\hangzhou_aoti_zhongxin.jpg" />
+	  <None Remove="Resources\Images\hangzhou_aoti_zhongxin_tiyuguan.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_ao_ti zhong_xin_you yong_guan.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_ao_tizhong_xin_youyong_guan.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_ao_ti_zhong_xin_guo_bo_bi_qiu_guan.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_ao_ti_zhong_xin_wang_qiu_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_dian_zi_ke_ji_da_xue_xia_sha_xiao_qu_ji_jian_guan.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_qi_yuan_qi_lei_guan.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\hang_zhou_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\huang_long_ti_yu_zhong_xin_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\huang_long_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\jian_hu_zu_qiu_xun_lian_chang.jpg" />
+	  <None Remove="Resources\Images\jin_hua_ti_yu_zhong_xin_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\jin_hua_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\ke_qiao_yang_shan_pan_yan_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\lin_an_qu_wen_ti_hui_zhan_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\lin_ping_ti_yu_zhong_xin_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\lin_ping_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\ning_bo_xiang_shan_ya_fan_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\qian_tang_lun_hua_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\shang_cheng_ti_yu_zhong_xin_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\shao_xing_ao_ti_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\shao_xing_bang_qiu_ti_yu_wen_hua_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\tong_lu_ma_shu_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\wen_zhou_ao_ti_zhong_xin_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\wen_zhou_long_zhou_yun_dong_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\xiao_shan_gua_li_wen_hua_ti_yu_zhong _xin.jpg" />
+	  <None Remove="Resources\Images\xiao_shan_gua_li_wen_hua_ti_yu_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\xiao_shan_lin_pu_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\xiao_shan_ti_yu_zhong_xin_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\xiao_shan_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\xi_hu_guo_ji_gao_er_fu_qiu_chang.jpg" />
+	  <None Remove="Resources\Images\ya_yun_sha_pai_ji_di.jpg" />
+	  <None Remove="Resources\Images\zhe_jiang_da_xue_zi_jin_gang_xiao_qu_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\zhe_jiang_gong_shang_da_xue_xia_sha_xiao_qu_shou_qiu_guan.jpg" />
+	  <None Remove="Resources\Images\zhe_jiang_gong_ye_da_xue_ping_feng_xiao_qu_ban_qiu_chang.jpg" />
+	  <None Remove="Resources\Images\zhe_jiang_sheng_huang_long_ti_yu_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\zhe_jiang_shi_fan_da_xue_dong_ti_yu_chang.jpg" />
+	  <None Remove="Resources\Images\zhe_jiang_shi_fan_da_xue_xiao_shan_xiao_qu_shou_qiu_guan.jpg" />
+	  <None Remove="Resources\Images\zhong _guo _hang _zhou _dian _jing _zhong _xin.jpg" />
+	  <None Remove="Resources\Images\zhong _guo _qing _fang _cheng _ti _yu _zhong _xin _ti _yu _guan.jpg" />
+	  <None Remove="Resources\Images\zhong_guo_hang_zhou_dian_jing_zhong_xin.jpg" />
+	  <None Remove="Resources\Images\zhong_guo_qing_fang_cheng_ti_yu_zhong_xin_ti_yu_guan.jpg" />
 	</ItemGroup>
 
 
