@@ -5,5 +5,6 @@ public partial class TabbedItems : Microsoft.Maui.Controls.TabbedPage
 	public TabbedItems()
 	{
 		InitializeComponent();
+
 	}
 }

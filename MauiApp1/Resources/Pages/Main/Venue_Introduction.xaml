@@ -13,7 +13,9 @@
 
 
             <Frame HeightRequest="300" WidthRequest="150">
-
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </Frame.GestureRecognizers>
                 <Grid>
                     <Image
                         HeightRequest="300"
@@ -248,7 +250,7 @@
                 <Grid>
                     <Image
                         HeightRequest="300"
-                        Source="fu_yang_qu_ti_yu_zhong_xin_ti_yu_guan.jpg"
+                        Source="fu_yang_qu_tiyu_zhong_xin_ti_yu_guan.jpg"
                         WidthRequest="150" />
                     <Label FontSize="20" Text="富阳区体育中心体育馆" />
                 </Grid>

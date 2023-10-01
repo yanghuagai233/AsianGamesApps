@@ -52,6 +52,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Remove="Resources\Images\LIST.TXT" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\bin_jiang_ti_yu_guan.jpg" />
 	  <None Remove="Resources\Images\chun_an_chang_di_zi_xing_che_guan.jpg" />
 	  <None Remove="Resources\Images\da_yun_he_ya_yun_gong_yuan_qu_gun_qiu_chang.jpg" />
@@ -76,6 +80,7 @@
 	  <None Remove="Resources\Images\hang_zhou_ti_yu_guan.jpg" />
 	  <None Remove="Resources\Images\huang_long_ti_yu_zhong_xin_ti_yu_chang.jpg" />
 	  <None Remove="Resources\Images\huang_long_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\Icons\left_arrow.png" />
 	  <None Remove="Resources\Images\jian_hu_zu_qiu_xun_lian_chang.jpg" />
 	  <None Remove="Resources\Images\jin_hua_ti_yu_zhong_xin_ti_yu_chang.jpg" />
 	  <None Remove="Resources\Images\jin_hua_ti_yu_zhong_xin_ti_yu_guan.jpg" />
@@ -83,6 +88,7 @@
 	  <None Remove="Resources\Images\lin_an_qu_wen_ti_hui_zhan_zhong_xin.jpg" />
 	  <None Remove="Resources\Images\lin_ping_ti_yu_zhong_xin_ti_yu_chang.jpg" />
 	  <None Remove="Resources\Images\lin_ping_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Images\LIST.TXT" />
 	  <None Remove="Resources\Images\ning_bo_xiang_shan_ya_fan_zhong_xin.jpg" />
 	  <None Remove="Resources\Images\qian_tang_lun_hua_zhong_xin.jpg" />
 	  <None Remove="Resources\Images\shang_cheng_ti_yu_zhong_xin_ti_yu_chang.jpg" />
@@ -127,10 +133,17 @@
 	  <MauiXaml Update="Resources\Pages\TabbedPage\TabbedItems.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\Pages\Venues\NewPage1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
 	  <Folder Include="Resources\Languages\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\Icons\left_arrow.png" />
 	</ItemGroup>
 
 </Project>

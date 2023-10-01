@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiApp1.Resources.Pages.Venues.NewPage1"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="NoTitle">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <ImageButton
+                x:Name="BackButton"
+                Margin="10"
+                Clicked="BackButton_Clicked"
+                HeightRequest="16"
+                Source="left_arrow.png"
+                WidthRequest="16" />
+            <Label
+                x:Name="TitleLabel"
+                FontSize="48"
+                HorizontalOptions="Center"
+                Text="{Binding}" />
+        </HorizontalStackLayout>
+        <Label Margin="10" x:Name="Info" />   
+    </VerticalStackLayout>
+</ContentPage>
