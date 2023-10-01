@@ -11,15 +11,24 @@
                     x:Name="BackButton"
                     Margin="10"
                     Clicked="BackButton_Clicked"
-                    HeightRequest="16"
+                    HeightRequest="32"
                     Source="left_arrow.png"
-                    WidthRequest="16" />
+                    WidthRequest="32" />
                 <Label
                     x:Name="TitleLabel"
-                    FontSize="48"
+                    FontSize="40"
                     HorizontalOptions="Center"
                     Text="{Binding}" />
             </HorizontalStackLayout>
+            <Button
+                x:Name="ToMap"
+                Margin="10"
+                Clicked="ToMap_Clicked"
+                FontSize="40"
+                HeightRequest="64"
+                HorizontalOptions="Start"
+                Text="路线"
+                WidthRequest="100" />
             <Label x:Name="Info" Margin="10" />
         </VerticalStackLayout>
     </ScrollView>

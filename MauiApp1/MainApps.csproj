@@ -114,6 +114,213 @@
 	  <None Remove="Resources\Images\zhong _guo _qing _fang _cheng _ti _yu _zhong _xin _ti _yu _guan.jpg" />
 	  <None Remove="Resources\Images\zhong_guo_hang_zhou_dian_jing_zhong_xin.jpg" />
 	  <None Remove="Resources\Images\zhong_guo_qing_fang_cheng_ti_yu_zhong_xin_ti_yu_guan.jpg" />
+	  <None Remove="Resources\Introduct\Venues\bin_jiang_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\chun_an_chang_di_zi_xing_che_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\da_yun_he_ya_yun_gong_yuan_qu_gun_qiu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\de_qing_di_li_xin_xi_xiao_zhen_lan_qiu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\de_qing_ti_yu_zhong_xin_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\fu_yang_qu_tiyu_zhong_xin_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\fu_yang_shui_shang_yun_dong_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\fu_yang_yin_hu_ti_yu_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\gong_shu_yun_he_ti_yu_gong_yuan_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\hangzhou_aoti_zhongxin.txt" />
+	  <None Remove="Resources\Introduct\Venues\hangzhou_aoti_zhongxin_tiyuchang.txt" />
+	  <None Remove="Resources\Introduct\Venues\hangzhou_aoti_zhongxin_tiyuguan.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_ao_tizhong_xin_youyong_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_ao_ti_zhong_xin_guo_bo_bi_qiu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_ao_ti_zhong_xin_wang_qiu_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_dian_zi_ke_ji_da_xue_xia_sha_xiao_qu_ji_jian_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_qi_yuan_qi_lei_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\hang_zhou_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\huang_long_ti_yu_zhong_xin_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\huang_long_ti_yu_zhong_xin_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\jian_hu_zu_qiu_xun_lian_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\jin_hua_ti_yu_zhong_xin_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\jin_hua_ti_yu_zhong_xin_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\ke_qiao_yang_shan_pan_yan_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\lin_an_qu_wen_ti_hui_zhan_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\lin_ping_ti_yu_zhong_xin_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\lin_ping_ti_yu_zhong_xin_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\ning_bo_xiang_shan_ya_fan_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\qian_tang_lun_hua_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\shang_cheng_ti_yu_zhong_xin_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\shao_xing_ao_ti_zhong_xin_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\shao_xing_bang_qiu_ti_yu_wen_hua_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\tong_lu_ma_shu_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\wen_zhou_ao_ti_zhong_xin_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\wen_zhou_long_zhou_yun_dong_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\xiao_shan_gua_li_wen_hua_ti_yu_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\xiao_shan_lin_pu_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\xiao_shan_ti_yu_zhong_xin_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\xiao_shan_ti_yu_zhong_xin_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\xi_hu_guo_ji_gao_er_fu_qiu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\ya_yun_sha_pai_ji_di.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhe_jiang_da_xue_zi_jin_gang_xiao_qu_ti_yu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhe_jiang_gong_shang_da_xue_xia_sha_xiao_qu_shou_qiu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhe_jiang_gong_ye_da_xue_ping_feng_xiao_qu_ban_qiu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhe_jiang_sheng_huang_long_ti_yu_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhe_jiang_shi_fan_da_xue_dong_ti_yu_chang.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhe_jiang_shi_fan_da_xue_xiao_shan_xiao_qu_shou_qiu_guan.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhong_guo_hang_zhou_dian_jing_zhong_xin.txt" />
+	  <None Remove="Resources\Introduct\Venues\zhong_guo_qing_fang_cheng_ti_yu_zhong_xin_ti_yu_guan.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiAsset Include="Resources\Introduct\Venues\bin_jiang_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\chun_an_chang_di_zi_xing_che_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\da_yun_he_ya_yun_gong_yuan_qu_gun_qiu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\de_qing_di_li_xin_xi_xiao_zhen_lan_qiu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\de_qing_ti_yu_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\fu_yang_qu_tiyu_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\fu_yang_shui_shang_yun_dong_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\fu_yang_yin_hu_ti_yu_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\gong_shu_yun_he_ti_yu_gong_yuan_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hangzhou_aoti_zhongxin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hangzhou_aoti_zhongxin_tiyuchang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hangzhou_aoti_zhongxin_tiyuguan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_ao_tizhong_xin_youyong_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_ao_ti_zhong_xin_guo_bo_bi_qiu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_ao_ti_zhong_xin_wang_qiu_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_dian_zi_ke_ji_da_xue_xia_sha_xiao_qu_ji_jian_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_qi_yuan_qi_lei_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\hang_zhou_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\huang_long_ti_yu_zhong_xin_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\huang_long_ti_yu_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\jian_hu_zu_qiu_xun_lian_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\jin_hua_ti_yu_zhong_xin_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\jin_hua_ti_yu_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\ke_qiao_yang_shan_pan_yan_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\lin_an_qu_wen_ti_hui_zhan_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\lin_ping_ti_yu_zhong_xin_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\lin_ping_ti_yu_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\ning_bo_xiang_shan_ya_fan_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\qian_tang_lun_hua_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\shang_cheng_ti_yu_zhong_xin_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\shao_xing_ao_ti_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\shao_xing_bang_qiu_ti_yu_wen_hua_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\tong_lu_ma_shu_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\wen_zhou_ao_ti_zhong_xin_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\wen_zhou_long_zhou_yun_dong_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\xiao_shan_gua_li_wen_hua_ti_yu_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\xiao_shan_lin_pu_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\xiao_shan_ti_yu_zhong_xin_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\xiao_shan_ti_yu_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\xi_hu_guo_ji_gao_er_fu_qiu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\ya_yun_sha_pai_ji_di.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhe_jiang_da_xue_zi_jin_gang_xiao_qu_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhe_jiang_gong_shang_da_xue_xia_sha_xiao_qu_shou_qiu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhe_jiang_gong_ye_da_xue_ping_feng_xiao_qu_ban_qiu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhe_jiang_sheng_huang_long_ti_yu_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhe_jiang_shi_fan_da_xue_dong_ti_yu_chang.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhe_jiang_shi_fan_da_xue_xiao_shan_xiao_qu_shou_qiu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhong_guo_hang_zhou_dian_jing_zhong_xin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
+	  <MauiAsset Include="Resources\Introduct\Venues\zhong_guo_qing_fang_cheng_ti_yu_zhong_xin_ti_yu_guan.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiAsset>
 	</ItemGroup>
 
 
@@ -146,162 +353,6 @@
 	  <Compile Update="Resources\Pages\Venues\Introduct.xaml.cs">
 	    <DependentUpon>Introduct.xaml</DependentUpon>
 	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Update="Resources\Introduct\Venues\bin_jiang_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\chun_an_chang_di_zi_xing_che_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\da_yun_he_ya_yun_gong_yuan_qu_gun_qiu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\de_qing_di_li_xin_xi_xiao_zhen_lan_qiu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\de_qing_ti_yu_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\fu_yang_qu_tiyu_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\fu_yang_shui_shang_yun_dong_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\fu_yang_yin_hu_ti_yu_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\gong_shu_yun_he_ti_yu_gong_yuan_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hangzhou_aoti_zhongxin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hangzhou_aoti_zhongxin_tiyuchang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hangzhou_aoti_zhongxin_tiyuguan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_ao_tizhong_xin_youyong_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_ao_ti_zhong_xin_guo_bo_bi_qiu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_ao_ti_zhong_xin_wang_qiu_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_dian_zi_ke_ji_da_xue_xia_sha_xiao_qu_ji_jian_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_qi_yuan_qi_lei_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_shi_fan_da_xue_cang_qian_xiao_qu_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\hang_zhou_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\huang_long_ti_yu_zhong_xin_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\huang_long_ti_yu_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\jian_hu_zu_qiu_xun_lian_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\jin_hua_ti_yu_zhong_xin_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\jin_hua_ti_yu_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\ke_qiao_yang_shan_pan_yan_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\lin_an_qu_wen_ti_hui_zhan_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\lin_ping_ti_yu_zhong_xin_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\lin_ping_ti_yu_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\ning_bo_xiang_shan_ya_fan_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\qian_tang_lun_hua_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\shang_cheng_ti_yu_zhong_xin_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\shao_xing_ao_ti_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\shao_xing_bang_qiu_ti_yu_wen_hua_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\tong_lu_ma_shu_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\wen_zhou_ao_ti_zhong_xin_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\wen_zhou_long_zhou_yun_dong_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\xiao_shan_gua_li_wen_hua_ti_yu_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\xiao_shan_lin_pu_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\xiao_shan_ti_yu_zhong_xin_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\xiao_shan_ti_yu_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\xi_hu_guo_ji_gao_er_fu_qiu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\ya_yun_sha_pai_ji_di.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhe_jiang_da_xue_zi_jin_gang_xiao_qu_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhe_jiang_gong_shang_da_xue_xia_sha_xiao_qu_shou_qiu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhe_jiang_gong_ye_da_xue_ping_feng_xiao_qu_ban_qiu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhe_jiang_sheng_huang_long_ti_yu_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhe_jiang_shi_fan_da_xue_dong_ti_yu_chang.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhe_jiang_shi_fan_da_xue_xiao_shan_xiao_qu_shou_qiu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhong_guo_hang_zhou_dian_jing_zhong_xin.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
-	  <None Update="Resources\Introduct\Venues\zhong_guo_qing_fang_cheng_ti_yu_zhong_xin_ti_yu_guan.txt">
-	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-	  </None>
 	</ItemGroup>
 
 </Project>
