@@ -133,17 +133,25 @@
 	  <MauiXaml Update="Resources\Pages\TabbedPage\TabbedItems.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Resources\Pages\Venues\NewPage1.xaml">
+	  <MauiXaml Update="Resources\Pages\Venues\Introduct.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Languages\" />
+	  <MauiImage Include="Resources\Images\Icons\left_arrow.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Include="Resources\Images\Icons\left_arrow.png" />
+	  <Compile Update="Resources\Pages\Venues\Introduct.xaml.cs">
+	    <DependentUpon>Introduct.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Resources\Introduct\Venues\hangzhou_aoti_zhongxin.txt">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 
 </Project>
