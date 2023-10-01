@@ -19,7 +19,7 @@
                 <Grid>
                     <Image
                         HeightRequest="300"
-                        Source="hangzhou_aoti_zhongxin.jpg"
+                        Source="hangzhou_aoti_zhongxin_tiyuchang.jpg"
                         WidthRequest="150" />
                     <Label FontSize="20" Text="杭州奥体中心体育场" />
                 </Grid>

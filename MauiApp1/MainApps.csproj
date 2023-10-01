@@ -67,7 +67,7 @@
 	  <None Remove="Resources\Images\fu_yang_yin_hu_ti_yu_zhong_xin.jpg" />
 	  <None Remove="Resources\Images\gong_shu_yun_he_ti_yu_gong_yuan_ti_yu_guan.jpg" />
 	  <None Remove="Resources\Images\hang _zhou _ti _yu _guan.jpg" />
-	  <None Remove="Resources\Images\hangzhou_aoti_zhongxin.jpg" />
+	  <None Remove="Resources\Images\hangzhou_aoti_zhongxin_tiyuchang.jpg" />
 	  <None Remove="Resources\Images\hangzhou_aoti_zhongxin_tiyuguan.jpg" />
 	  <None Remove="Resources\Images\hang_zhou_ao_ti zhong_xin_you yong_guan.jpg" />
 	  <None Remove="Resources\Images\hang_zhou_ao_tizhong_xin_youyong_guan.jpg" />
@@ -149,7 +149,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Update="Resources\Introduct\Venues\hangzhou_aoti_zhongxin.txt">
+	  <None Update="Resources\Introduct\Venues\hangzhou_aoti_zhongxin_tiyuchang.txt">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
 	</ItemGroup>
