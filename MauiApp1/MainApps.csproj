@@ -339,6 +339,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Resources\Pages\Main\Competition_Items.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\Pages\Main\Venue_Introduction.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
