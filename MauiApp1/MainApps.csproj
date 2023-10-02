@@ -361,6 +361,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\AsianGameRank\AsianGameRank.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="Resources\Pages\Venues\Introduct.xaml.cs">
 	    <DependentUpon>Introduct.xaml</DependentUpon>
 	  </Compile>
