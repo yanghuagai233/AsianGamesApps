@@ -47,7 +47,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\splash1.png" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -64,6 +64,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\AsianGameImages\slogan.jpg" />
 	  <None Remove="Resources\Images\bin_jiang_ti_yu_guan.jpg" />
 	  <None Remove="Resources\Images\chun_an_chang_di_zi_xing_che_guan.jpg" />
 	  <None Remove="Resources\Images\da_yun_he_ya_yun_gong_yuan_qu_gun_qiu_chang.jpg" />
@@ -360,6 +361,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiImage Include="Resources\Images\AsianGameImages\slogan.jpg" />
 	  <MauiImage Include="Resources\Images\Icons\left_arrow.png" />
 	</ItemGroup>
 

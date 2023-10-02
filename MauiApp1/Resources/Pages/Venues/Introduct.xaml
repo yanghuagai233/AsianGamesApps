@@ -16,8 +16,9 @@
                     WidthRequest="32" />
                 <Label
                     x:Name="TitleLabel"
-                    FontSize="40"
+                    FontSize="38"
                     HorizontalOptions="Center"
+                    LineBreakMode="WordWrap"
                     Text="{Binding}" />
             </HorizontalStackLayout>
             <Button

@@ -4,9 +4,10 @@ namespace MauiApp1.Resources.Pages.Main;
 
 public partial class Comp_Rank : ContentPage
 {
+    private List<RankInfo> info;
     private async void setBingding()
     {
-        List<RankInfo> info =await GetRank.GetRankInfo();
+        info =await GetRank.GetRankInfo();
         Label1.BindingContext = info[0];
         Label2.BindingContext = info[1];
         Label3.BindingContext = info[2];
@@ -48,7 +49,14 @@ public partial class Comp_Rank : ContentPage
     }
     public Comp_Rank()
     {
+        info=new List<RankInfo>();
         InitializeComponent();
         setBingding();
+    }
+
+    private void RefreshButton_Clicked(object sender, EventArgs e)
+    {
+        setBingding();
+
     }
 }

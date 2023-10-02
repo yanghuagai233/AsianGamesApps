@@ -7,7 +7,7 @@ public partial class Introduct : ContentPage
     private string place;
     private async void Initial(string filename)
     {
-        Info.FontSize=32;
+        Info.FontSize = 32;
         string name = @"Resources\Introduct\Venues\" + filename + ".txt";
         Info.Text = await ReadTextFile(name);
     }
@@ -25,6 +25,20 @@ public partial class Introduct : ContentPage
         TitleLabel.BindingContext = this.Title;
         place = title;
         Initial(filename);
+        if (title.Length <= 8)
+        {
+            TitleLabel.FontSize = 40; 
+        }else if (title.Length <= 12)
+        {
+            TitleLabel.FontSize = 30;
+        }else if(title.Length <= 16)
+        {
+            TitleLabel.FontSize = 25;
+        }
+        else
+        {
+            TitleLabel.FontSize = 20;
+        }
     }
 
     private async void BackButton_Clicked(object sender, EventArgs e)

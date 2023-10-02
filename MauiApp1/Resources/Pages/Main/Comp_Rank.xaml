@@ -11,123 +11,132 @@
         </Style>
     </ContentPage.Resources>
     <ScrollView>
-        <TableView
-            Margin="10"
-            HasUnevenRows="True"
-            Intent="Menu">
-            <TableRoot>
-                <TableSection Title="Chapters">
+        <VerticalStackLayout>
+            <Image Source="slogan.jpg" />
+            <Button
+                x:Name="RefreshButton"
+                Margin="5"
+                Clicked="RefreshButton_Clicked"
+                Text="刷新数据" />
 
-                    <ViewCell>
-                        <Label x:Name="Label1" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label2" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label3" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label4" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label5" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label6" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label7" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label8" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label9" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label10" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label11" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label12" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label13" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label14" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label15" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label16" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label17" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label18" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label19" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label20" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label21" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label22" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label23" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label24" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label25" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label26" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label27" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label28" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label29" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label30" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label31" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label32" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label33" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label34" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label35" Text="{Binding}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Label x:Name="Label36" Text="{Binding}" />
-                    </ViewCell>
-                </TableSection>
-            </TableRoot>
-        </TableView>
+            <TableView
+                Margin="10"
+                HasUnevenRows="True"
+                Intent="Menu">
+                <TableRoot>
+                    <TableSection Title="奖牌榜">
+                        <ViewCell>
+                            <Label x:Name="Label1" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label2" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label3" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label4" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label5" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label6" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label7" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label8" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label9" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label10" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label11" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label12" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label13" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label14" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label15" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label16" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label17" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label18" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label19" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label20" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label21" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label22" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label23" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label24" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label25" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label26" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label27" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label28" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label29" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label30" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label31" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label32" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label33" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label34" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label35" Text="{Binding}" />
+                        </ViewCell>
+                        <ViewCell>
+                            <Label x:Name="Label36" Text="{Binding}" />
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </VerticalStackLayout>
+
     </ScrollView>
 </ContentPage>
