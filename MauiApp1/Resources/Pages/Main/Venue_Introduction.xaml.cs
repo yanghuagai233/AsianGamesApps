@@ -12,10 +12,6 @@ public partial class Venue_Introduction : ContentPage
         
     }
 
-    private void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
-    {
-
-    }
 
     async private void TapGestureRecognizer_Tapped_1(object sender, TappedEventArgs e)
     {

@@ -28,7 +28,7 @@
                 HeightRequest="64"
                 HorizontalOptions="Start"
                 Text="路线"
-                WidthRequest="100" />
+                WidthRequest="130" />
             <Label x:Name="Info" Margin="10" />
         </VerticalStackLayout>
     </ScrollView>
