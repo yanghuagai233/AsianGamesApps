@@ -1,12 +1,357 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiApp1.Resources.Pages.Main.Competition_Items"
-             Title="比赛项目">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+<ContentPage
+    x:Class="MauiApp1.Resources.Pages.Main.Competition_Items"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="比赛项目">
+    <ContentPage.Resources>
+        <Style TargetType="Image">
+            <Setter Property="HeightRequest" Value="256" />
+            <Setter Property="WidthRequest" Value="256" />
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="40" />
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="End" />
+        </Style>
+        <Style TargetType="Frame">
+            <Setter Property="HeightRequest" Value="256" />
+            <Setter Property="WidthRequest" Value="256" />
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <FlexLayout
+            AlignItems="Start"
+            Direction="Row"
+            JustifyContent="SpaceAround"
+            Wrap="Wrap">
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+
+                <Grid>
+                    <Image Source="dian_zi_jing_ji.jpg" />
+                    <Label Text="电子竞技" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="pi_li_wu.jpg" />
+                    <Label Text="霹雳舞" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="tian_jing.jpg" />
+                    <Label Text="田径" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="tie_ren_san_xiang.jpg" />
+                    <Label Text="铁人三项" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="ma_shu.jpg" />
+                    <Label Text="马术" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="xian_dai_wu_xiang.jpg" />
+                    <Label Text="现代五项" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="gong_lu_zi_xing_che.jpg" />
+                    <Label Text="公路自行车" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="chang_di_zi_xing_che.jpg" />
+                    <Label Text="场地自行车" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="shan_di_zi_xing_che.jpg" />
+                    <Label Text="山地自行车" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="jing_su_xiao_lun_che.jpg" />
+                    <Label Text="竞速小轮车" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="she_jian.jpg" />
+                    <Label Text="射箭" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="ju_zhong.jpg" />
+                    <Label Text="举重" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="beng_chuang.jpg" />
+                    <Label Text="蹦床" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="yi_shu_ti_cao.jpg" />
+                    <Label Text="艺术体操" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="jing_ji_ti_cao.jpg" />
+                    <Label Text="竞技体操" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="xiang_qi.jpg" />
+                    <Label Text="象棋" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="guo_ji_xiang_qi.jpg" />
+                    <Label Text="国际象棋" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="qiao_pai.jpg" />
+                    <Label Text="桥牌" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="wei_qi.jpg" />
+                    <Label Text="围棋" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="she_ji.jpg" />
+                    <Label Text="射击" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="hua_ban.jpg" />
+                    <Label Text="滑板" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="lun_hua.jpg" />
+                    <Label Text="轮滑" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="wu_shu.jpg" />
+                    <Label Text="武术" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="pan_yan.jpg" />
+                    <Label Text="攀岩" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="zu_qiu.jpg" />
+                    <Label Text="足球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="lan_qiu.jpg" />
+                    <Label Text="篮球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="san_ren_lan_qiu.jpg" />
+                    <Label Text="三人篮球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="pai_qiu.jpg" />
+                    <Label Text="排球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="sha_tan_pai_qiu.jpg" />
+                    <Label Text="沙滩排球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="shou_qiu.jpg" />
+                    <Label Text="手球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="yu_mao_qiu.jpg" />
+                    <Label Text="羽毛球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="ping_pang_qiu.jpg" />
+                    <Label Text="乒乓球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="lei_qiu.jpg" />
+                    <Label Text="垒球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="qu_gun_qiu.jpg" />
+                    <Label Text="曲棍球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="gao_er_fu_qiu.jpg" />
+                    <Label Text="高尔夫球" />
+                </Grid>
+            </Frame>
+            <Frame>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Frame.GestureRecognizers>
+                <Grid>
+                    <Image Source="wang_qiu.jpg" />
+                    <Label Text="网球" />
+                </Grid>
+            </Frame>
+
+        </FlexLayout>
+
+    </ScrollView>
 </ContentPage>
