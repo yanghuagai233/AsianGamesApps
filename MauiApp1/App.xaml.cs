@@ -1,6 +1,6 @@
-﻿using MauiApp1.Resources.Pages.TabbedPage;
+﻿using AsianGameApps.Resources.Pages.TabbedPage;
 
-namespace MauiApp1
+namespace AsianGameApps
 {
     public partial class App : Application
     {

@@ -1,7 +1,7 @@
 using AsianGameRank;
-using MauiApp1.Resources.Pages.Main;
+using AsianGameApps.Resources.Pages.Main;
 
-namespace MauiApp1.Resources.Pages.TabbedPage;
+namespace AsianGameApps.Resources.Pages.TabbedPage;
 
 public partial class TabbedItems : Microsoft.Maui.Controls.TabbedPage
 {

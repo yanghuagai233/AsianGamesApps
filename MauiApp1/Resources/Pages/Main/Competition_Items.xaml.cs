@@ -1,8 +1,8 @@
-using MauiApp1.Resources.Pages.Comp;
+using AsianGameApps.Resources.Pages.Comp;
 
 
 
-namespace MauiApp1.Resources.Pages.Main
+namespace AsianGameApps.Resources.Pages.Main
 {
     public partial class Competition_Items : ContentPage
     {

@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace MauiApp1
+namespace AsianGameApps
 {
     public class Program
     {

@@ -1,7 +1,7 @@
 ﻿using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
 
-namespace MauiApp1
+namespace AsianGameApps
 {
     public static class MauiProgram
     {

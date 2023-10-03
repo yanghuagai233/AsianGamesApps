@@ -1,5 +1,5 @@
-﻿using MauiApp1.Resources.Pages;
-namespace MauiApp1
+﻿using AsianGameApps.Resources.Pages;
+namespace AsianGameApps
 {
     public partial class MainPage : ContentPage
     {

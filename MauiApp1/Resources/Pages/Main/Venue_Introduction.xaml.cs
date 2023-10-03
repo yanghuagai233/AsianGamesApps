@@ -1,8 +1,8 @@
-using MauiApp1.Resources.Pages.Venues;
+using AsianGameApps.Resources.Pages.Venues;
 using Microsoft.Maui.Controls;
 using System.Globalization;
 
-namespace MauiApp1.Resources.Pages.Main;
+namespace AsianGameApps.Resources.Pages.Main;
 
 public partial class Venue_Introduction : ContentPage
 {

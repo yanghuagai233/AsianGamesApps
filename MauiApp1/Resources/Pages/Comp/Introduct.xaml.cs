@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace MauiApp1.Resources.Pages.Comp;
+namespace AsianGameApps.Resources.Pages.Comp;
 
 public partial class Introduct : ContentPage
 {

@@ -1,4 +1,4 @@
-﻿namespace MauiApp1
+﻿namespace AsianGameApps
 {
     public partial class AppShell : Shell
     {

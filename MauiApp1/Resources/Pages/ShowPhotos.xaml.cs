@@ -1,4 +1,4 @@
-namespace MauiApp1.Resources.Pages;
+namespace AsianGameApps.Resources.Pages;
 
 public partial class ShowPhotos : ContentPage
 {

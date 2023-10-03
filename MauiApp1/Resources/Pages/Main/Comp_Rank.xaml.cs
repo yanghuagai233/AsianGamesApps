@@ -1,6 +1,6 @@
 using AsianGameRank;
 
-namespace MauiApp1.Resources.Pages.Main;
+namespace AsianGameApps.Resources.Pages.Main;
 
 public partial class Comp_Rank : ContentPage
 {

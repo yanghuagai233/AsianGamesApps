@@ -1,8 +1,8 @@
 <TabbedPage
-    x:Class="MauiApp1.Resources.Pages.TabbedPage.TabbedItems"
+    x:Class="AsianGameApps.Resources.Pages.TabbedPage.TabbedItems"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:Pages="clr-namespace:MauiApp1.Resources.Pages.Main">
+    xmlns:Pages="clr-namespace:AsianGameApps.Resources.Pages.Main">
     <Pages:Venue_Introduction />
     <Pages:Competition_Items />
     <Pages:Comp_Rank />
