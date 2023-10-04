@@ -8,6 +8,9 @@
         <Style TargetType="Label">
             <Setter Property="FontSize" Value="25" />
             <Setter Property="LineBreakMode" Value="WordWrap" />
+            <Setter Property="FontFamily" Value="FangZhengKaiTi" />
+
+
         </Style>
     </ContentPage.Resources>
     <ScrollView>

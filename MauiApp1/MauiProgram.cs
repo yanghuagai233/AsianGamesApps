@@ -15,6 +15,7 @@ namespace AsianGameApps
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("FangZhengKaiTiJianTi-1.ttf", "FangZhengKaiTi");
                 });
 
 #if DEBUG

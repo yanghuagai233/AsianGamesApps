@@ -6,6 +6,6 @@
     <Pages:Venue_Introduction />
     <Pages:Competition_Items />
     <Pages:Comp_Rank />
-    <Pages:More_Info/>
+    <Pages:More_Info />
 
 </TabbedPage>

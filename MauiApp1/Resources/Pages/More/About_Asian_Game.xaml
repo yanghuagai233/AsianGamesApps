@@ -11,9 +11,11 @@
             <Setter Property="FontSize" Value="40" />
             <Setter Property="Margin" Value="10" />
             <Setter Property="LineBreakMode" Value="WordWrap" />
+            <Setter Property="FontFamily" Value="FangZhengKaiTi" />
         </Style>
         <Style x:Key="SubTitle" TargetType="Label">
             <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="FontFamily" Value="FangZhengKaiTi" />
             <Setter Property="VerticalOptions" Value="Center" />
             <Setter Property="FontSize" Value="32" />
             <Setter Property="Margin" Value="10" />
@@ -21,6 +23,7 @@
         </Style>
         <Style x:Key="MainText" TargetType="Label">
             <Setter Property="FontSize" Value="20" />
+            <Setter Property="FontFamily" Value="FangZhengKaiTi" />
             <Setter Property="Margin" Value="10" />
             <Setter Property="LineBreakMode" Value="WordWrap" />
         </Style>
