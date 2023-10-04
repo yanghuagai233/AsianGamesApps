@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AsianGameApps.Resources.Pages.More.About_Asian_Game"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="About_Asian_Game">
+    <ContentPage.Resources>
+        <Style x:Key="Title" TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="FontSize" Value="40" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="LineBreakMode" Value="WordWrap" />
+        </Style>
+        <Style x:Key="SubTitle" TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="FontSize" Value="32" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="LineBreakMode" Value="WordWrap" />
+        </Style>
+        <Style x:Key="MainText" TargetType="Label">
+            <Setter Property="FontSize" Value="20" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="LineBreakMode" Value="WordWrap" />
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout>
+            <HorizontalStackLayout>
+                <ImageButton
+                    x:Name="BackButton"
+                    Margin="10"
+                    Clicked="BackButton_Clicked"
+                    HeightRequest="32"
+                    Source="left_arrow.png"
+                    WidthRequest="32" />
+                <Label
+                    x:Name="TitleLabel"
+                    FontSize="38"
+                    HorizontalOptions="Center"
+                    LineBreakMode="WordWrap"
+                    Text="亚洲运动会" />
+            </HorizontalStackLayout>
+            <Label Style="{StaticResource MainText}" Text="    亚洲运动会（简称亚运会、亚运；英语：Asian Games，简写：Asiad）是亚洲的综合性运动会，为国际奥委会承认的地区性大型综合运动会，由亚洲奥林匹克理事会（亚奥理事会）主办，每4年一届。其前身是远东运动会和西亚运动会，第一届亚洲运动会原定于1949年2月在印度的新德里举行，由于主办国筹备等原因延至1951年举行，目前共举办18届。" />
+            <Label Style="{StaticResource Title}" Text="亚运历史" />
+            <Label Style="{StaticResource SubTitle}" Text="远东运动会" />
+            <Label Style="{StaticResource MainText}" Text="    1912年，中华民国、日本、菲律宾三国代表经协商后成立了远东体育协会，并于次年举行第一届远东运动会。从1913年至1934年间，先后在菲律宾的马尼拉、上海、日本的东京和大阪等地举办了十届远东运动会，最初是每两年举行一届，1927年后改为每四年举行一届。前几届运动会只有中华民国、日本、菲律宾三国参加，第九及第十届，分别有印度和荷属印度组团参加比赛。开设的比赛项目有田径、游泳、足球、篮球、棒球、网球、排球等。1934年，日本坚持把满洲国拉入远东运动会，遭到中华民国的抗议并宣布退出，远东体育协会宣告解体，运动会亦随之停办。" />
+            <Label Style="{StaticResource SubTitle}" Text="亚洲业余体育联合会的成立" />
+            <Label Style="{StaticResource MainText}" Text="    1948年7月，伦敦第14届奥运会举行期间，中华民国与菲律宾的体育人士欲恢复远东运动会，并与亚洲各国体育人士商讨。当时印度体育领导人古鲁·杜特·松迪认为远东运动会不足以体现亚洲体育运动的水准和亚洲人民团结精神，主张创办一个所有亚洲国家的亚洲运动会。他遍访了来伦敦参加奥运会的亚洲国家体育代表，并邀请了韩国、中华民国、菲律宾等13个国家和地区的代表召开了关于成立亚洲体育运动组织的筹备会议。会议决定起草亚洲运动会有关文件和章程并确定于1949年2月在印度新德里举行第一届亚洲运动会（因印度国内原因，运动会延至1951年举行）。1949年2月，亚洲国家体育组织代表在印度首都新德里召开会议，会上正式成立了“亚洲业余体育联合会”（随后更名为“亚洲运动会联合会”），1981年改为“亚洲奥林匹克理事会”至今。" />
+            <Label Style="{StaticResource Title}" Text="会徽及会旗" />
+            <Label Style="{StaticResource MainText}" Text="    第一代会徽采用至2006年亚洲运动会。此会徽的设计的中间的太阳代表亚洲运动的发展及推广。最上方是国际奥委会的会徽，其下是亚运的标语“Ever Onward”（永远向前）；而在亚运会徽之下则是亚运理事会“Olympic Council of Asia”的字样。  第二代的会徽在2006年12月2日在多哈亚运会举行期间公布，而新的会徽采用回太阳的代表，其意义一样，而在会徽的右上角及左下角分别是代表东亚的龙及代表西亚的鹰，也代表亚洲的团结之意。而在会徽的下面有国际奥委会的会徽及“Olympic Council of Asia”的字样。第一个使用新会徽的运动会是2007年亚洲室内运动会。" />
+            <Label Style="{StaticResource Title}" Text="举办城市" />
+            <Label Style="{StaticResource MainText}" Text="    亚运会的举办城市由亚奥理事会执委通过淘汰制投票得出，即如果所有城市在首轮投票中都没有过半数胜出，就将票数最低的城市逐个淘汰，以此类推，直至将剩下两个城市决出胜负。在投票前，亚奥理事会执委们还要对各申办城市进行全方面的考察以决定其投票意愿。" />
+            <Label Style="{StaticResource Title}" Text="亚运会与其他综合性运动会的区别 " />
+            <Label Style="{StaticResource SubTitle}" Text="奥运会" />
+            <Label Style="{StaticResource MainText}" Text="1、范围不同，奥运会是全球性的体育比赛，亚运会是亚洲范围内的体育比赛。" />
+            <Label Style="{StaticResource MainText}" Text="2、比赛项目不同，亚运会中有很多非奥运项目。" />
+            <Label Style="{StaticResource MainText}" Text="3、参赛者不同，奥运选手来自世界各地，亚运选手只是来自亚洲。" />
+            <Label Style="{StaticResource MainText}" Text="4、部分亚运项目是奥运资格赛，只需达到指定名次就可获得奥运参赛资格。" />
+            <Label Style="{StaticResource MainText}" Text="5、部分亚运项目是该单项的世界杯亚洲区资格赛，同样达到指定名次就可获得世界杯参赛资格。" />
+            <Label Style="{StaticResource SubTitle}" Text="其他国际性综合运动会" />
+            <Label Style="{StaticResource MainText}" Text="与泛美运动会、欧洲运动会、全非运动会、太平洋运动会等各洲综合运动会相比，亚运会拥有较多的非奥运会正式比赛项目。" />
+
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AsianGameApps.Resources.Pages.Main.More_Info"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="更多信息">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="HorizontalOptions" Value="Center" />
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="FontSize" Value="40" />
+            <Setter Property="Margin" Value="10" />
+        </Style>
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout>
+            <TableView>
+                <TableRoot>
+                    <TableSection Title="更多信息">
+                        <ViewCell Tapped="ViewCell_Tapped">
+                            <Label Text="亚运会"/>
+                        </ViewCell>
+                        <ViewCell Tapped="Source_Tapped">
+                            <Label Text="数据来源" />
+                        </ViewCell>
+                        <ViewCell Tapped="ViewCell_Tapped_1">
+                            <Label Text="许可协议"/>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

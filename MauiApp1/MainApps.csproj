@@ -12,10 +12,10 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<WindowsPackageType>MSIX</WindowsPackageType>
 		<!-- Display name -->
-		<ApplicationTitle>AsianGameApps</ApplicationTitle>
+		<ApplicationTitle>亚运小助手</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.AsianGameApps</ApplicationId>
+		<ApplicationId>com.yanghuagai.AsianGameApps</ApplicationId>
 		<ApplicationIdGuid>1bf96669-f72c-4242-a74c-86150e6ccb50</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -534,7 +534,19 @@
 	  <MauiXaml Update="Resources\Pages\Main\Comp_Rank.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Resources\Pages\Main\More_Info.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Resources\Pages\Main\Venue_Introduction.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\Pages\More\About_Asian_Game.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\Pages\More\About_Source.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Resources\Pages\More\About_Agreement.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Resources\Pages\ShowPhotos.xaml">
@@ -668,6 +680,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="Resources\Pages\More\About_Agreement.xaml.cs">
+	    <DependentUpon>About_Agreement.xaml</DependentUpon>
+	  </Compile>
 	  <Compile Update="Resources\Pages\Venues\Introduct.xaml.cs">
 	    <DependentUpon>Introduct.xaml</DependentUpon>
 	  </Compile>

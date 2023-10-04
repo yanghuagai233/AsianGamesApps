@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AsianGameApps.Resources.Pages.More.About_Source"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="资料来源">
+    <VerticalStackLayout>
+        <VerticalStackLayout>
+            <HorizontalStackLayout>
+                <ImageButton
+                    x:Name="BackButton"
+                    Margin="10"
+                    Clicked="BackButton_Clicked"
+                    HeightRequest="32"
+                    Source="left_arrow.png"
+                    WidthRequest="32" />
+                <Label
+                    x:Name="TitleLabel"
+                    FontSize="38"
+                    HorizontalOptions="Center"
+                    LineBreakMode="WordWrap"
+                    Text="数据来源" />
+            </HorizontalStackLayout>
+            <Label
+                Margin="10"
+                FontSize="40"
+                Text="1、杭州亚运会官方网站" />
+            <Label
+                Margin="10"
+                FontSize="40"
+                Text="2、百度百科" />
+            <Label
+                Margin="10"
+                FontSize="40"
+                Text="3、Wikipedia" />
+        </VerticalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
