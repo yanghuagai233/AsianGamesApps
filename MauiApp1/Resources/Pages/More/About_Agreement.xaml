@@ -29,11 +29,11 @@
             <Label
                 Margin="10"
                 FontSize="30"
-                Text="版权声明：本代码采用CC BY-SA 4.0许可证授权，原作者为Wikipedia。" />
+                Text="版权声明：本程序部分内容采用CC BY-SA 4.0许可证授权，原作者为Wikipedia。" />
             <Label
                 Margin="10"
                 FontSize="30"
-                Text="本代码是对原始作品的修改版本。" />
+                Text="采用部分是对原始作品的修改版本。（仅关于亚运部分）" />
             <Label
                 Margin="10"
                 FontSize="30"
