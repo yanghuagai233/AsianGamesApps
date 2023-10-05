@@ -61,8 +61,13 @@ namespace AsianGameRank
             {
                 sb.Append("排名：" + _Rank + "  ");//2
             }
-            sb.Append("参赛队伍："+_CountryName+ta);
-            if (_CountryName.Length <= 2)
+            sb.Append("参赛队伍："+_CountryName+'\n');
+
+            sb.Append("金牌数：" + _Gold + ta);
+            sb.Append("银牌数：" + _Silver + ta);
+            sb.Append("铜牌数：" + _Copper + '\n');
+            sb.Append("总奖牌排名：" + _RankByTotal);
+            /*if (_CountryName.Length <= 2)
             {
                 sb.Append(ta);
             }
@@ -70,6 +75,7 @@ namespace AsianGameRank
             sb.Append("银牌数："+_Silver+ta);
             sb.Append("铜牌数：" + _Copper+ta);
             sb.Append("总奖牌排名："+_RankByTotal);
+            */
             return sb.ToString();
         }
     }

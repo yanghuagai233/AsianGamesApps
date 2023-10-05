@@ -33,15 +33,25 @@
             <Label
                 Margin="10"
                 FontSize="30"
-                Text="采用部分是对原始作品的修改版本。（仅关于亚运部分）" />
+                Text="采用部分是对原始作品的修改版本。（仅'更多\亚运会'部分）" />
             <Label
                 Margin="10"
                 FontSize="30"
                 Text="你可以复制、发行、展示及演出本作品；若你改变、转变或更改本作品， 仅在遵守与本作品相同的许可条款下，你才能散布由本作品产生的派生作品。" />
-            <Label
-                Margin="10"
-                FontSize="30"
-                Text="许可证链接：https://creativecommons.org/licenses/by-sa/4.0/" />
+            <Label Margin="10" FontSize="30">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Label.GestureRecognizers>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="许可证链接： " />
+                        <Span
+                            Text="https://creativecommons.org/licenses/by-sa/4.0/"
+                            TextColor="Blue"
+                            TextDecorations="Underline" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
 
 
 
