@@ -26,15 +26,25 @@
                     LineBreakMode="WordWrap"
                     Text="许可协议" />
             </HorizontalStackLayout>
-            <Label Margin="10" FontSize="30">
-                <Label.Text>
-                    版权声明：本代码采用CC BY-SA 4.0许可证授权，原作者为Wikipedia。
-                    本代码是对原始作品的修改版本。
-                    你可以复制、发行、展示及演出本作品；若你改变、转变或更改本作品，
-                    仅在遵守与本作品相同的许可条款下，你才能散布由本作品产生的派生作品。
-                    许可证链接：https://creativecommons.org/licenses/by-sa/4.0/
-                </Label.Text>
-            </Label>
+            <Label
+                Margin="10"
+                FontSize="30"
+                Text="版权声明：本代码采用CC BY-SA 4.0许可证授权，原作者为Wikipedia。" />
+            <Label
+                Margin="10"
+                FontSize="30"
+                Text="本代码是对原始作品的修改版本。" />
+            <Label
+                Margin="10"
+                FontSize="30"
+                Text="你可以复制、发行、展示及演出本作品；若你改变、转变或更改本作品， 仅在遵守与本作品相同的许可条款下，你才能散布由本作品产生的派生作品。" />
+            <Label
+                Margin="10"
+                FontSize="30"
+                Text="许可证链接：https://creativecommons.org/licenses/by-sa/4.0/" />
+
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
