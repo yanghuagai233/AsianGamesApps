@@ -1,4 +1,5 @@
 ﻿using HtmlAgilityPack;
+using System.Collections.ObjectModel;
 using System.Text;
 
 namespace AsianGameRank
@@ -82,10 +83,10 @@ namespace AsianGameRank
     // All the code in this file is included in all platforms.
     public class GetRank
     {
-        public static async Task<List<RankInfo>> GetRankInfo()
+        public static async Task<ObservableCollection<RankInfo>> GetRankInfo()
         {
-            List<string> tags = new List<string>();
-            List<RankInfo> rankInfos = new List<RankInfo>();
+            ObservableCollection<string> tags = new ObservableCollection<string>();
+            ObservableCollection<RankInfo> rankInfos = new ObservableCollection<RankInfo>();
             try
             {
                 var client = new HttpClient();
@@ -126,7 +127,7 @@ namespace AsianGameRank
                             tags[7]
                             );
                         rankInfos.Add(rankInfo);
-                        tags = new List<string>();
+                        tags = new ObservableCollection<string>();
                     }
 
                 }
