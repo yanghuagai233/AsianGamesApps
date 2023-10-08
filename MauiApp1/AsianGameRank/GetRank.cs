@@ -129,7 +129,7 @@ namespace AsianGameRank
                         rankInfos.Add(rankInfo);
                         tags = new ObservableCollection<string>();
                     }
-
+                    if (i == 335) { break; }
                 }
                 return rankInfos;
             }
