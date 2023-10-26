@@ -25,7 +25,13 @@
                             <Label Text="数据来源" />
                         </ViewCell>
                         <ViewCell Tapped="ViewCell_Tapped_1">
-                            <Label Text="许可协议" />
+                            <Label Text="购买渠道（门票）（周边）" />
+                        </ViewCell>
+                        <ViewCell Tapped="ViewCell_Tapped_2">
+                            <Label Text="比赛赛程" />
+                        </ViewCell>
+                        <ViewCell Tapped="ViewCell_Tapped_3">
+                            <Label Text="亚运礼仪" />
                         </ViewCell>
                     </TableSection>
                 </TableRoot>

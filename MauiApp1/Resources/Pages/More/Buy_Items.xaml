@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AsianGameApps.Resources.Pages.More.Buy_Items"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Buy_Items">
+    <VerticalStackLayout>
+        <HorizontalStackLayout>
+            <ImageButton
+                x:Name="BackButton"
+                Margin="10"
+                Clicked="BackButton_Clicked"
+                HeightRequest="32"
+                Source="left_arrow.png"
+                WidthRequest="32" />
+        </HorizontalStackLayout>
+        <Button
+            x:Name="JumpToBuyLink"
+            Margin="10"
+            Clicked="JumpToBuyLink_Clicked"
+            FontSize="40"
+            Text="点击前往购买亚运会周边" />
+        <Button
+            x:Name="JumpToTicketLink"
+            Margin="10"
+            Clicked="JumpToTicketLink_Clicked"
+            FontSize="40"
+            Text="点击前往购买亚运会门票" />
+    </VerticalStackLayout>
+</ContentPage>

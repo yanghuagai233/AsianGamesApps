@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AsianGameApps.Resources.Pages.More.Asian_Game_Etiquette"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Asian_Game_Etiquette">
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <HorizontalStackLayout Grid.Row="0">
+                <ImageButton
+                    x:Name="BackButton"
+                    Margin="10"
+                    Clicked="BackButton_Clicked"
+                    HeightRequest="32"
+                    Source="left_arrow.png"
+                    WidthRequest="32" />
+                <Label FontSize="40" Text="亚运礼仪" />
+            </HorizontalStackLayout>
+
+
+            <WebView x:Name="ShowWebView" Grid.Row=" 1" />
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -65,7 +65,23 @@
             <Label Style="{StaticResource SubTitle}" Text="其他国际性综合运动会" />
             <Label Style="{StaticResource MainText}" Text="与泛美运动会、欧洲运动会、全非运动会、太平洋运动会等各洲综合运动会相比，亚运会拥有较多的非奥运会正式比赛项目。" />
 
-
+            <Label
+                FontSize="12"
+                HorizontalOptions="Center"
+                Text="数据来源：Wikipedia"
+                TextColor="Gray"
+                VerticalOptions="Center" />
+            <Label
+                FontSize="12"
+                HorizontalOptions="Center"
+                Text="维基百科文本，受到许可: CC BY-SA 许可证."
+                TextColor="Gray"
+                VerticalOptions="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                </Label.GestureRecognizers>
+            </Label>
+            <Label Text="     " />
 
 
 
