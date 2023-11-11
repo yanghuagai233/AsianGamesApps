@@ -68,6 +68,7 @@ namespace AsianGameRank
             sb.Append("银牌数：" + _Silver + ta);
             sb.Append("铜牌数：" + _Copper + '\n');
             sb.Append("总奖牌排名：" + _RankByTotal);
+            sb.Append("\n");
             /*if (_CountryName.Length <= 2)
             {
                 sb.Append(ta);

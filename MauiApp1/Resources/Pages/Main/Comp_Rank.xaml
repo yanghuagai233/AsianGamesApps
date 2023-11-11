@@ -14,23 +14,31 @@
         </Style>
     </ContentPage.Resources>
     <ScrollView>
-        <VerticalStackLayout>
-            <Image Source="slogan.jpg" />
-            <Button
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Image Source="slogan.jpg" Grid.Row="0" />
+            <Button Grid.Row="1"
                 x:Name="RefreshButton"
                 Margin="5"
                 Clicked="RefreshButton_Clicked"
                 Text="刷新数据" />
-            <ListView x:Name="LV" ItemsSource="{Binding RankData}">
+            <ListView x:Name="LV" ItemsSource="{Binding RankData}" Grid.Row="2" RowHeight="128">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Label Text="{Binding}" />
+                            <VerticalStackLayout>
+                                <Label Text="{Binding}" />
+                                <Label Text="" />
+                            </VerticalStackLayout>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-        </VerticalStackLayout>
+        </Grid>
 
     </ScrollView>
 </ContentPage>

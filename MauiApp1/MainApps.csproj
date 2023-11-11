@@ -11,7 +11,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<WindowsPackageType>MSIX</WindowsPackageType>
 		<!-- Display name -->
-		<ApplicationTitle>亚运小助手</ApplicationTitle>
+		<ApplicationTitle>智趣亚运小助手</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.yanghuagai.AsianGameApps</ApplicationId>

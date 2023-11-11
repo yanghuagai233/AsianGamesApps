@@ -18,13 +18,13 @@
             x:Name="JumpToBuyLink"
             Margin="10"
             Clicked="JumpToBuyLink_Clicked"
-            FontSize="40"
+            FontSize="32"
             Text="点击前往购买亚运会周边" />
         <Button
             x:Name="JumpToTicketLink"
             Margin="10"
             Clicked="JumpToTicketLink_Clicked"
-            FontSize="40"
+            FontSize="32"
             Text="点击前往购买亚运会门票" />
     </VerticalStackLayout>
 </ContentPage>
